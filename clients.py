@@ -35,3 +35,12 @@ add_product("Smartphone", "Latest model smartphone", 799.99)
 
 # Retrieve and display products
 get_products()
+
+data = {
+    "name": "Product Name",
+    "description": "Product Description",
+    "price": 100.50
+}
+
+
+
