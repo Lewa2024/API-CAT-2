@@ -36,11 +36,38 @@ add_product("Smartphone", "Latest model smartphone", 799.99)
 # Retrieve and display products
 get_products()
 
+#POST/products
+#requestbody(JSON)
 data = {
     "name": "Product Name",
     "description": "Product Description",
     "price": 100.50
 }
+#respone (JSON)
+{
+  "name": "Product Name",
+  "description": "Product Description",
+  "price": 100.50
+}
+# GET/products
+# response(JSON)
+[
+  {
+    "name": "Product 1",
+    "description": "Description 1",
+    "price": 20.50
+  },
+  {
+    "name": "Product 2",
+    "description": "Description 2",
+    "price": 30.00
+  }
+]
+
+#Error handling
+{"error": "Invalid input"}
+
+
 
 
 
