@@ -40,6 +40,12 @@ def get_products():
 if __name__ == '__main__':
     app.run(debug=True)
 
+{
+  "name": "Product Name",
+  "description": "Product Description",
+  "price": 100.50
+}
+
 
 
 
